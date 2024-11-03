@@ -9,6 +9,8 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatCardModule } from '@angular/material/card';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
     imports: [
@@ -20,7 +22,9 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
         MatNativeDateModule,
         MatSelectModule,
         MatButtonModule,
-        MatTableModule
+        MatTableModule,
+        MatCardModule,
+        MatPaginatorModule
     ],
     exports: [
         MatListModule,
@@ -31,7 +35,9 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
         MatNativeDateModule,
         MatSelectModule,
         MatButtonModule,
-        MatTableModule
+        MatTableModule,
+        MatCardModule,
+        MatPaginatorModule
     ],
 })
 export class AngularMaterialModule { }
